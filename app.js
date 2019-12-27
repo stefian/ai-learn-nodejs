@@ -16,6 +16,9 @@ var greetMe = function() {
 }
 greetMe();
 
+// it's still First Class
+logGreeting(greetMe);
+
 // var a = 1;
 // var b = 2;
 // var c = a + b;
