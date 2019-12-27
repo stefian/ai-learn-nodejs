@@ -8,7 +8,13 @@ function greet() {
 function logGreeting(fn) {
     fn();
 }
-logGreeting(greet);
+logGreeting(greet); // no paranthesis after greet
+
+// function expression
+var greetMe = function() {
+    console.log('Hi Steve');
+}
+greetMe();
 
 // var a = 1;
 // var b = 2;
