@@ -1,28 +1,31 @@
-// function statement 
-function greet() {
-    console.log('hi');
-}
-// greet();
 
-// functions are first-class Objects
-function logGreeting(fn) {
-    fn();
-}
-logGreeting(greet); // no paranthesis after greet
 
-// function expression
-var greetMe = function() {
-    console.log('Hi Steve');
-}
-greetMe();
+// ----------
+// // function statement 
+// function greet() {
+//     console.log('hi');
+// }
+// // greet();
 
-// it's still First Class
-logGreeting(greetMe);
+// // functions are first-class Objects
+// function logGreeting(fn) {
+//     fn();
+// }
+// logGreeting(greet); // no paranthesis after greet
 
-// use a function expression on the fly
-logGreeting(function() {
-    console.log('Hello Steve!');
-})
+// // function expression
+// var greetMe = function() {
+//     console.log('Hi Steve');
+// }
+// greetMe();
+
+// // it's still First Class
+// logGreeting(greetMe);
+
+// // use a function expression on the fly
+// logGreeting(function() {
+//     console.log('Hello Steve!');
+// });
 
 // ------------------------
 // var a = 1;
