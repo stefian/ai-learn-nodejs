@@ -1,4 +1,4 @@
-
+require('./greet.js');
 
 // ----------
 // // function statement 
